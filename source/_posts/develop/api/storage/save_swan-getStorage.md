@@ -164,4 +164,4 @@ Page({
 
 **Bugs&Tips**
 
-通过swan.getStorage获取一个为设置的key对应值时， 目前会回调success函数并返回空字符串， 该问题会在后续版本修复，请关注公告及文档说明。
+通过swan.getStorage获取一个未设置的key对应值时，目前会回调success函数并返回空字符串，该问题会在后续版本修复，请关注公告及文档说明。
